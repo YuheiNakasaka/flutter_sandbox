@@ -126,10 +126,12 @@ packages:
   provider:
     dependency: "direct main"
     description:
-      name: provider
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.2"
+      path: "."
+      ref: extensions
+      resolved-ref: "28831c0c8e6a555195bf64abdedca49e476d2089"
+      url: "https://github.com/rrousselGit/provider.git"
+    source: git
+    version: "4.1.0-dev"
   quiver:
     dependency: transitive
     description:
@@ -206,5 +208,5 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
-  dart: ">=2.4.0 <3.0.0"
+  dart: ">=2.6.0 <3.0.0"
   flutter: ">=1.12.1"

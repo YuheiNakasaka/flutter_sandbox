@@ -2,12 +2,15 @@ name: flutter_sandbox
 description: A new Flutter project.
 version: 1.0.0+1
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
-  provider: ^4.0.2
+  provider:
+    git:
+      url: https://github.com/rrousselGit/provider.git
+      ref: extensions
 dev_dependencies:
   flutter_test:
     sdk: flutter
