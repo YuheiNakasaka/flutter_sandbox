@@ -8,9 +8,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   provider:
-    git:
-      url: https://github.com/rrousselGit/provider.git
-      ref: extensions
+  state_notifier: ">= 0.3.0 < 1.0.0"
+  flutter_state_notifier:
 dev_dependencies:
   flutter_test:
     sdk: flutter

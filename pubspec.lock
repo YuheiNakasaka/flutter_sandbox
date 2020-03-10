@@ -69,6 +69,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_state_notifier:
+    dependency: "direct main"
+    description:
+      name: flutter_state_notifier
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -109,13 +116,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.6.4"
-  pedantic:
-    dependency: transitive
-    description:
-      name: pedantic
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.8.0+1"
   petitparser:
     dependency: transitive
     description:
@@ -126,12 +126,10 @@ packages:
   provider:
     dependency: "direct main"
     description:
-      path: "."
-      ref: extensions
-      resolved-ref: "28831c0c8e6a555195bf64abdedca49e476d2089"
-      url: "https://github.com/rrousselGit/provider.git"
-    source: git
-    version: "4.1.0-dev"
+      name: provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.1.0-dev+2"
   quiver:
     dependency: transitive
     description:
@@ -158,6 +156,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.9.3"
+  state_notifier:
+    dependency: "direct main"
+    description:
+      name: state_notifier
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.0"
   stream_channel:
     dependency: transitive
     description:
@@ -185,7 +190,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.11"
+    version: "0.2.15"
   typed_data:
     dependency: transitive
     description:
@@ -208,5 +213,5 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
-  dart: ">=2.6.0 <3.0.0"
-  flutter: ">=1.12.1"
+  dart: ">=2.7.0 <3.0.0"
+  flutter: ">=1.15.17-pre.5"
